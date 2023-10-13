@@ -1,10 +1,10 @@
 class Animal {
   constructor(species) {
-    this.species = species;
+    this._species = species;
   }
 
   get species() {
-    return this.species;
+    return this._species;
   }
 
   makeSound(sound) {
